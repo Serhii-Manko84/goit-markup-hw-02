@@ -1,8 +1,27 @@
 body {
-font-family: "Roboto";
+font-family: "Roboto"; sans-serif
 font-size: 14px;
 line-height: 1.14;
 color: #212121;
+}
+/*Стилы для index.html*/
+
+.accent {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: #2196F3;
+}
+
+.accent-two {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;    
+    color: #000000;
 }
 
 .headline {
@@ -28,15 +47,16 @@ line-height: 16px;
 line-height: 1.42;
 }
 .text {
-font-size: 16px;
-line-height: 1.87;
+line-height: 1.71;
 color: #757575;
 }
+.items {font-style: normal;}
 
 .nav
 {list-style: none}
 
-.nav-link, .cursor {color: #000000;}
+.nav-link, .cursor
+ {color: #000000;}
 
 .nav-link:hover, 
 .nav-link:focus {color: #2196F3}
@@ -45,4 +65,17 @@ color: #757575;
 .cursor:hover, 
 .cursor:focus {color: #ffffff;
     background-color: #2196F3;
+}
+/*Стилі для портфоліє*/
+
+.caption {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;}
+
+.desc {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.875;
+color: #757575;
 }
