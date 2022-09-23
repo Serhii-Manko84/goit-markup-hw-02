@@ -1,5 +1,14 @@
+:root {
+    --brand-color: #2196F3;
+    --brand-color-two: #000000;
+    --brand-color-three: #FFFFFF;
+    --brand-font:"Raleway";
+    --brand-font-style: normal;
+    --brand-tekst-color:#757575;
+}
+
 body {
-font-family: "Roboto"; sans-serif
+font-family: "Roboto", sans-serif
 font-size: 14px;
 line-height: 1.14;
 color: #212121;
@@ -7,32 +16,33 @@ color: #212121;
 /*Стилы для index.html*/
 
 .accent {
-    font-family: 'Raleway';
-    font-style: normal;
+    text-decoration: none;
+    font-family: var(--brand-font);
+    font-style: var(--brand-font-style);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    color: #2196F3;
+    color: var(--brand-color);
 }
 
 .accent-two {
-    font-family: 'Raleway';
-    font-style: normal;
+    font-family: var(--brand-font);
+    font-style: var(--brand-font-style);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;    
-    color: #000000;
+    color: var(--brand-color-two);
 }
 
 .headline {
 font-family: 'Roboto';
-font-style: normal;
+font-style: var(--brand-font-style);
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
 }
 
-.heading-two {color: #ffffff;}
+.heading-two {color: #F5F5F5;}
 
 .heading {
 font-weight: 700;
@@ -43,30 +53,55 @@ text-align: center;
 
 .subject {
 font-weight: 700;
-line-height: 16px;
+font-size: 16px;
 line-height: 1.42;
 }
 .text {
 line-height: 1.71;
-color: #757575;
+color: var(--brand-tekst-color);
 }
-.items {font-style: normal;}
+.items {
+    font-style: normal;}
 
-.nav
-{list-style: none}
-
-.nav-link, .cursor
- {color: #000000;}
-
-.nav-link:hover, 
-.nav-link:focus {color: #2196F3}
-
-
-.cursor:hover, 
-.cursor:focus {color: #ffffff;
-    background-color: #2196F3;
+.nav{
+    list-style: none;
 }
+.cursor {
+font-family: 'Roboto';
+font-weight: 700;
+font-size: 16px;
+line-height: 1.875;
+color: var(--brand-color-three);
+background-color: var(--brand-color);
+
+}
+
+.nav-link { 
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--brand-color-two);
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: var(--brand-color)}
+
+.cursor:hover, .cursor:focus {color: var(--brand-color-two);
+    background-color: var(--brand-color-three);
+}
+
+
 /*Стилі для портфоліє*/
+
+.btn {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.875;
+text-align: center;
+}
+
+.btn:hover, .btn:focus {color: var(--brand-color);
+    background-color: var(--brand-color-three);
+}
 
 .caption {
     font-weight: 700;
@@ -77,5 +112,22 @@ color: #757575;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.875;
-color: #757575;
+color: var(--brand-tekst-color);
+}
+
+.section {
+    background-color: #F5F5F5;
+}
+
+.footer {
+background-color: #2F303A;
+}
+
+.accent-three {
+    font-family: var(--brand-font);
+    font-style: var(--brand-font-style);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;    
+    color: var(--brand-color-three);
 }
