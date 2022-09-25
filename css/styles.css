@@ -8,7 +8,7 @@
 }
 
 body {
-font-family: "Roboto", sans-serif
+font-family: "Roboto", sans-serif;
 font-size: 14px;
 line-height: 1.14;
 color: #212121;
@@ -33,6 +33,12 @@ color: #212121;
     line-height: 1.19;    
     color: var(--brand-color-two);
 }
+.head {
+    text-transform:uppercase;
+    color: var(--brand-color-three);
+    background-color: #2F303A;
+
+}
 
 .headline {
 font-family: 'Roboto';
@@ -53,8 +59,8 @@ text-align: center;
 
 .subject {
 font-weight: 700;
-font-size: 16px;
-line-height: 1.42;
+font-size: 14px;
+line-height: 1.14;
 }
 .text {
 line-height: 1.71;
@@ -82,25 +88,59 @@ background-color: var(--brand-color);
     color: var(--brand-color-two);
 }
 
+.nav-link-mail {
+    color: var(--brand-color);
+    text-decoration: none;
+}
+
+.nav-link-tel {
+    color: var(--brand-tekst-color);
+    text-decoration: none;
+}
+
 .nav-link:focus, .nav-link:hover {
     color: var(--brand-color)}
+
+.nav-link-mail:focus, .nav-link-mail:hover {
+        color: var(--brand-color);}
+
+.nav-link-tel:focus, .nav-link-tel:hover {
+    color: var(--brand-color);
+}
 
 .cursor:hover, .cursor:focus {color: var(--brand-color-two);
     background-color: var(--brand-color-three);
 }
 
+.footer {
+    background-color: #2F303A;
+    }
+
+.nav-link-adres {
+    color: var(--brand-color-three);
+    text-decoration: none;
+}
+
+.nav-link-kont {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.nav-link-adres:focus, .nav-link-adres:hover {color: var(--brand-color);}
+
+.nav-link-kont:focus, .nav-link-kont:hover {color: var(--brand-color);}
 
 /*Стилі для портфоліє*/
 
 .btn {
 font-weight: 500;
 font-size: 16px;
-line-height: 1.875;
+line-height: 1.625;
 text-align: center;
 }
 
-.btn:hover, .btn:focus {color: var(--brand-color);
-    background-color: var(--brand-color-three);
+.btn:hover, .btn:focus {color: var(--brand-color-three);
+    background-color: var(--brand-color);
 }
 
 .caption {
@@ -117,10 +157,6 @@ color: var(--brand-tekst-color);
 
 .section {
     background-color: #F5F5F5;
-}
-
-.footer {
-background-color: #2F303A;
 }
 
 .accent-three {
