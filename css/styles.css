@@ -97,11 +97,8 @@ cursor: pointer;
     color: var(--brand-color)}
 
 .nav-link-contakts:focus, .nav-link-contakts:hover {
-        color: var(--brand-color);}
-
-.cursor:hover, .cursor:focus {color: var(--brand-color-two);
-    background-color: var(--brand-color-three);
-}
+        color: var(--brand-color);
+    }
 
 .footer {
     background-color: #2F303A;
